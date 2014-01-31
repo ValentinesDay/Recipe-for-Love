@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <head>
 <script src="/assets/jquery.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Delius+Swash+Caps' rel='stylesheet' type='text/css'>
 <style>
 body {
   font-family: 'Press Start 2P', cursive;
   position: relative;
   max-width: 600px;
-  background: black;
+background-image: url("http://www.healthylivinghealthyflavors.com/images/background.jpg");
 }
 ul {
   width: 1000px;
@@ -42,50 +43,37 @@ div {
   position: relative;
   left: 70px;
   right: 500px;
-  height: 300px;
+  height: 1000px;
   width: 1000px;
-  background-size: relative;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 40px;
+
+  background-size: 555px;
 }
 p {
+font-family: 'Delius Swash Caps', cursive;
+    font-size: 20px;
+    color: hotpink;
+  text-align: relative;
+    left: 150px;
+    top: 290px;
   position: relative;
-  background:-webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  background:-o-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  color: rgba(255,255,255,1);
-  opacity: .9;
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   padding: 5px;
   line-height: 28px;
-  text-align: justify;
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin: 0;
   height: 31px;
   width: 1000px; 
-  transition: height .5s;
-  border-radius: 0;
-}
-small {
-  opacity: 0;
-}
-.show-description p {
-  height: 250px;
-}
-.show-description small {
-  opacity: 1;
+  border-radius: 0;'
+ 
 }
 .first{
-  background-image: url("http://www.animationsa.org/sites/animationsa.org/files/images/Recipe%20for%20Love%20Ident5.png");
+  background-image: url("http://keepinglifecreative.com/wp-content/uploads/2010/01/PODD-cupcake-recipe-card-4x61.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 400
-}
-.date {
-  float: right;
+  background-size: 900px;
 }
 </style>
 </head>
@@ -100,8 +88,7 @@ small {
       <li><a href="#"><a href="http://valentinesday.github.io/Mad-Libs">Mad Libs</a></li>
 
 <div class="first">
-  <p>Recipe for Love<br />
-  <small>Ingredients:
+  <p>Ingredients:
 <br>-1 geeky boy
 <br>-1 slightly nerdy girl
 <br>-2 burgers
@@ -112,14 +99,8 @@ small {
 Directions:
 <br>-Place both ingredients at Bad Apply and mix with burgers and beer
 <br>-Let marinate for a week
-<br>-Place in Half Acre Brewery and allow to mix for a few hours, followed by Fountainhead
+<br>-Place in Half Acre Brewery and allow to mix for a few hours
 <br>-Sprinkle in a Blackhawks Championship
 <br>-Place all along with one birthday celebration dinner and drinks for one night
-<br>-Let all mariante for 7 months and see what comes!</br>
-</small></p>
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
+<br>-Let all mariante for 7 months and see what comes!</p>
 </body>
